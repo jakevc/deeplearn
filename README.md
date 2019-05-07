@@ -4,4 +4,6 @@ This repository documents my progress using deep learning techniques. The work i
 
 ## Notebooks
 
-    - [BirdClassifier.ipynb](https://github.com/jakevc/deeplearn/blob/master/BirdClassifier.ipynb) uses fastai to train a computer vision model using transfer learning. The model is trained to recognize birds from a carefully curated set of 42,562 bird images, NABirds V1 described in the publication: [Van Horn et al. 2015](https://vision.cornell.edu/se3/wp-content/uploads/2015/05/Horn_Building_a_Bird_2015_CVPR_paper.pdf).
+- [BirdClassifier.ipynb](https://github.com/jakevc/deeplearn/blob/master/BirdClassifier.ipynb) uses fastai to train a computer vision model using transfer learning. The model is trained to recognize birds from a carefully curated set of 42,562 bird images, NABirds V1 described in the publication: [Van Horn et al. 2015](https://vision.cornell.edu/se3/wp-content/uploads/2015/05/Horn_Building_a_Bird_2015_CVPR_paper.pdf).
+
+- [deepBoundary.ipynb](https://github.com/jakevc/deeplearn/blob/master/deepBoundary.ipynb) uses fastai to train a CNN on high resolution topologically associated domain boundary data, using a final GRU layer with a binary cross entropy loss function to determine if it's a boundary or not. 
